@@ -1,0 +1,49 @@
+{
+  "name": "quick-prisma",
+  "version": "1.0.0",
+  "description": "High-performance Prisma PostgreSQL database module with quick.db-like API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "dev": "bun run src/test.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "database",
+    "prisma",
+    "postgresql",
+    "quick",
+    "fast",
+    "typescript",
+    "bun",
+    "key-value",
+    "nosql-like"
+  ],
+  "author": "Mert",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "prisma": "^5.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.10.5",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw3do/quick-prisma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sw3do/quick-prisma/issues"
+  },
+  "homepage": "https://github.com/sw3do/quick-prisma#readme"
+}
