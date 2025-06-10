@@ -1,5 +1,5 @@
 {
-  "name": "quick-prisma",
+  "name": "quick.prisma",
   "version": "1.0.0",
   "description": "High-performance Prisma PostgreSQL database module with quick.db-like API",
   "main": "dist/index.js",
@@ -40,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sw3do/quick-prisma.git"
+    "url": "git+https://github.com/sw3do/quick.prisma.git"
   },
   "bugs": {
-    "url": "https://github.com/sw3do/quick-prisma/issues"
+    "url": "https://github.com/sw3do/quick.prisma/issues"
   },
-  "homepage": "https://github.com/sw3do/quick-prisma#readme"
+  "homepage": "https://github.com/sw3do/quick.prisma#readme"
 }

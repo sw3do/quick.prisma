@@ -15,11 +15,11 @@ A high-performance PostgreSQL database module with a quick.db-like API, built on
 ## Installation
 
 ```bash
-npm install quick-prisma
+npm install quick.prisma
 # or
-yarn add quick-prisma
+yarn add quick.prisma
 # or
-bun add quick-prisma
+bun add quick.prisma
 ```
 
 ## Quick Start
@@ -70,7 +70,7 @@ npx prisma generate
 ### 3. Basic Usage
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma({
   connectionString: process.env.DATABASE_URL,
@@ -212,7 +212,7 @@ const admin = await db.find((value) => value.role === 'admin');
 ### Using AdvancedQuickPrisma
 
 ```typescript
-import { AdvancedQuickPrisma } from 'quick-prisma';
+import { AdvancedQuickPrisma } from 'quick.prisma';
 
 const db = new AdvancedQuickPrisma();
 
@@ -309,7 +309,7 @@ await db.set('key', 'value');
 const value = await db.get('key');
 
 // QuickPrisma
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 const db = new QuickPrisma();
 await db.set('key', 'value');
 const value = await db.get('key');
@@ -364,9 +364,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/sw3do/quick-prisma#readme)
-- 🐛 [Issue Tracker](https://github.com/sw3do/quick-prisma/issues)
-- 💬 [Discussions](https://github.com/sw3do/quick-prisma/discussions)
+- 📖 [Documentation](https://github.com/sw3do/quick.prisma#readme)
+- 🐛 [Issue Tracker](https://github.com/sw3do/quick.prisma/issues)
+- 💬 [Discussions](https://github.com/sw3do/quick.prisma/discussions)
 
 ## Acknowledgments
 

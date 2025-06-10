@@ -5,7 +5,7 @@ Real-world examples of using QuickPrisma in different scenarios.
 ## User Management System
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -63,7 +63,7 @@ const activeUsers = await getActiveUsers();
 ## Shopping Cart
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -124,7 +124,7 @@ console.log('Cart:', cartData);
 ## Caching System
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -204,7 +204,7 @@ const cleanedCount = await cache.cleanup();
 ## Analytics & Metrics
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -281,7 +281,7 @@ const topEvents = await analytics.getTopEvents(5);
 ## Task Queue
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -422,7 +422,7 @@ console.log('Queue stats:', stats);
 ## Configuration Management
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 
@@ -524,7 +524,7 @@ await config.restore(backupKey);
 ## Session Management
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 const db = new QuickPrisma();
 

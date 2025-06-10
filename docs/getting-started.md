@@ -14,16 +14,16 @@ Choose your preferred package manager:
 
 ```bash
 # npm
-npm install quick-prisma
+npm install quick.prisma
 
 # yarn
-yarn add quick-prisma
+yarn add quick.prisma
 
 # pnpm
-pnpm add quick-prisma
+pnpm add quick.prisma
 
 # bun
-bun add quick-prisma
+bun add quick.prisma
 ```
 
 ## Database Setup
@@ -129,7 +129,7 @@ DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supaba
 Create a file called `app.js` or `app.ts`:
 
 ```typescript
-import { QuickPrisma } from 'quick-prisma';
+import { QuickPrisma } from 'quick.prisma';
 
 async function main() {
   // Initialize QuickPrisma
@@ -244,5 +244,5 @@ If you get TypeScript errors:
 ## Getting Help
 
 - 📖 [Full Documentation](../README.md)
-- 🐛 [Report Issues](https://github.com/sw3do/quick-prisma/issues)
-- 💬 [Join Discussions](https://github.com/sw3do/quick-prisma/discussions) 
+- 🐛 [Report Issues](https://github.com/sw3do/quick.prisma/issues)
+- 💬 [Join Discussions](https://github.com/sw3do/quick.prisma/discussions) 
