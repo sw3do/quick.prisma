@@ -1,15 +1,14 @@
 {
   "name": "quick.prisma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-performance Prisma PostgreSQL database module with quick.db-like API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "bun build src/index.ts --outdir dist --target node",
+    "build": "bun build src/index.ts --outdir dist --target node --external @prisma/client --external prisma && node_modules\\.bin\\tsc --declaration --emitDeclarationOnly --outDir dist src/index.ts",
     "dev": "bun run src/test.ts",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "prepublishOnly": "bun run build"
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "database",
